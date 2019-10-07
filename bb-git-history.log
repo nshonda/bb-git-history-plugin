@@ -1,0 +1,26 @@
+Array
+(
+    [css] => 
+    [js] => 
+)
+Array
+(
+    [css] => .global{
+    color: #fff
+}
+    [js] => // this is global
+)
+stdClass Object
+(
+    [css] => .custom-css{
+    color: #f00;
+}
+    [js] => 
+)
+Array
+(
+    [css] => .custom-css{
+    color: #fff;
+}
+    [js] => 
+)

@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .icon-img{
+    width: 16px;
+    margin-right: 4px;
+    margin-left: 4px;
+ }
+
+ .login-img{
+  width: 16px;
+  margin-right: 8px;
+  margin-left: 4px;
+  vertical-align: middle
+}
+
+.login-link{
+  padding: 12px;
+    background: #24292e;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-link:focus{
+  color: #fff;
+}
+
+.branch-select{
+  display: none;
+}
+
+.branch-select.active{
+  display: block;
+}
