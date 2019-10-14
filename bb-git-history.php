@@ -40,12 +40,12 @@ define( 'BB_GIT_HISTORY_VERSION', '1.0.0' );
 /**
  * Github APP URL
  */
-define( 'BB_GIT_HISTORY_APP_URL', 'https://github.com/apps/bb-git-history/installations/new' );
+define( 'BB_GIT_HISTORY_APP_URL', 'https://github.com/apps/bb-git-history-wp-plugin/installations/new' );
 
 /**
  * Github APP API
  */
-define( 'BB_GIT_HISTORY_APP_API', 'http://127.0.0.1:8000/api/' );
+define( 'BB_GIT_HISTORY_APP_API', 'http://bbcss.onerhino.com/api/' );
 
 /**
  * Log file
