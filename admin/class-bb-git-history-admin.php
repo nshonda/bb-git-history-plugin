@@ -215,7 +215,7 @@ class Bb_Git_History_Admin {
 			$repositories = unserialize(get_option( 'bb_git_history_repositories' ));
 			foreach ($repositories as $key => $repo) {
 				echo '<option data-id="' . $repo->id . '" value="' . $repo->full_name . '" ' .
-				 selected(get_option( 'bb_git_history_github_repository' , $repo->full_name )) . '>' . 
+				 selected(get_option( 'bb_git_history_github_repository' ) , $repo->full_name ) . '>' . 
 				 $repo->full_name . '</option>';
 			}
       echo '</select>';
@@ -245,7 +245,7 @@ class Bb_Git_History_Admin {
 			echo '<select class="branch-select '. $active .'" name="bb_git_history_github_branch" id="bb_git_history_github_branches_repo_'. $repo->id .'">';
 			foreach($repo->branches as $k => $branch){
 				echo '<option value="' . $branch->name . '" ' .
-				selected(get_option( 'bb_git_history_github_branch' , $branch->name )) . '>' . 
+				selected(get_option( 'bb_git_history_github_branch') , $branch->name ) . '>' . 
 				$branch->name . '</option>';
 			}
 			 echo '</select>';
